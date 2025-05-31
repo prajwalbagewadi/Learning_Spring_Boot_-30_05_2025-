@@ -1,0 +1,54 @@
+What is Spring Boot?
+
+spring framework:
+    popular framework for building java apps(toolbox for building apps)
+        spring framework modules:(modules are designed to handle specific task)
+            Web , Data
+            AOP,
+            Core,
+            Test,
+        categorized into layers:
+            Core:
+            Handling dependency Injection,Managing Objects
+            Web:
+            building Web Applications:
+                handle Web Requests
+                process Data
+                return Responses
+                (works with both html for web and json for api)
+
+            Data:
+                modules for working with Databases.
+                (Sql,NoSql,or inMemory Databases)
+            AOP:
+                Aspect Oriented Programming:
+                    for adding features like logging or security
+                    without cluttring the main code.
+            Test:
+                 Testing Spring Components.   
+
+
+spring is modular:we can choose modules for our project.
+
+Spring complications:
+    eg: building A Web APP
+        setup Web Server
+        configure Routing
+        manage dependencies manually
+
+making development slower and more complex.
+
+Spring Boot:
+    Think of Spring Boot as Layer on top of Spring framework
+        Spring Boot:
+            Spring framework 
+        Spring boot takes care of tedious Setup configuration for you
+
+    Spring Boot:
+        Simplifies Spring development by providing Sensible defaults and ready-to-use features.
+
+    part of a larger Eco System:
+    Spring Boot, Spring framework, Spring Batch, Spring Integration,
+    Spring Data, Spring Security, Spring Cloud, Spring Shell;
+
+    

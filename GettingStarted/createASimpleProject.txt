@@ -1,0 +1,68 @@
+Creating A Spring Boot Project:
+    1.
+        First Go To: ("https://start.spring.io")
+            you can select your options and Generate a new Spring Boot Project
+                Build_tool: Gradle-Groovy, Gradle-Kotlin, Maven(selected)
+                Language: Java(selected), Kotlin, Groovy
+                SpringBoot:3.4.2(snapshot), 3.4.1(selected/StableVersion), 3.3.8(snapshot), 3.3.7
+                Project_MetaData:
+                    Group(Org that owns the Project):com.codewithmosh(default is reverseDomainName)
+                    Artifact(Name of the Project):demo(build a online Store.)
+                    Name(Changes as per Artifact):demo
+                    Description:Demo Project for SpringBoot
+                    Package_name(combination of Group and Artifact):com.codewithmosh.demo
+                    Packaging(package type): Jar(selected), War
+                    Java(Java version):23(selected), 21, 17
+
+                Dependencies(thirdparty libraires or frameworks that will be used in the Project):
+
+                Click(Generate)
+
+                Gives you a Zip file(unpack it) and this can be opened in your favouriate Editior.
+
+    2.
+        Create a SpringBoot Project Directly inside Intellji
+            (Requires Intellji Ultimate edition which is paid so.)
+            the method is completely similar to start.spring.io method except a few 
+            more Customizations.
+    
+    3. 
+        Lets Try the Eclipse IDE And Set it up
+            To create a Spring Boot project in Eclipse, follow these steps:
+            ✅ Prerequisites:
+                Eclipse IDE (preferably Eclipse IDE for Enterprise Java Developers)
+                Java JDK 17+ installed
+                Spring Tools (STS) plugin for Eclipse (optional but recommended)
+
+            🔧 Step-by-Step Guide:
+                🔹 Option 1: Using Spring Starter Project (Recommended)
+                        Open Eclipse
+                        Launch Eclipse and switch to the Java EE or Java Perspective.
+                        Install Spring Tools (If not already installed)
+                        
+                        Go to:
+                        Help → Eclipse Marketplace → Search "Spring Tools" → Install "Spring Tools 4 (aka Spring Tool Suite 4)"
+                        Create a New Spring Starter Project
+
+                        Go to:
+                            File → New → Spring Starter Project
+                        If not visible, try:
+                            File → New → Other → Spring → Spring Starter Project
+
+                        Project Metadata Configuration
+                            Fill in:
+                            Name: e.g., demo-app
+                            Type: Maven
+                            Packaging: Jar
+                            Java Version: 17 (or as per your JDK)
+                            Group: com.example
+                            Artifact: demo
+                            Choose Dependencies
+                                Example:
+                                    Spring Web
+                                    Spring Boot DevTools
+                                    Spring Data JPA (if DB needed)
+                                    H2/MySQL Driver (if using DB)
+                                Finish
+                                    Click Finish, and Eclipse will create the project and download dependencies.
+

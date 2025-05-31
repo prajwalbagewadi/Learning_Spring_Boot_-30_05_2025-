@@ -1,0 +1,23 @@
+development Environment:
+    1.Latest Version of JDK:23(as of video.)
+        run cmd: java -version
+        java version "21.0.3" 2024-04-16 LTS
+        Java(TM) SE Runtime Environment (build 21.0.3+7-LTS-152)
+        Java HotSpot(TM) 64-Bit Server VM (build 21.0.3+7-LTS-152, mixed mode, sharing)
+
+    2.Code Editior(IntelliJ IDEA)
+        comes with built in set of tools for springboot
+        alternatives Vscode , Eclipse
+    
+    3.Build tools:
+        Build automation tool for building and Packing our Apps. 
+        Maven , Gradle
+        for course We will be using Maven.
+        IntelliJ has maven built in.
+            download maven.apache.org
+            windows chocolatey.org -> download chocolatey -> choco install maven
+            cmd: mvn -v
+            Maven home: C:\apache-maven-3.9.9
+            Java version: 21.0.3, vendor: Oracle Corporation, runtime: D:\Software_Installed\jdk
+            Default locale: en_IN, platform encoding: UTF-8
+            OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
